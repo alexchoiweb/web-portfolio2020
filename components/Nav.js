@@ -3,18 +3,21 @@ import Link from 'next/link'
 export default function Nav({ title }) {
   return <div className="Nav">
     <div>
-      <span>Alex Choi</span>
+      <ul>
+        <Link href="/"><a>alexchoiweb</a></Link>
+
+      </ul>
     </div>
     <div>
       <ul>
         <Link href="/about">
-          <li>About</li>
+          <a>About</a>
         </Link>
         <Link href="/work">
-          <li>Work</li>
+          <a>Work</a>
         </Link>
         <Link href="/contact">
-          <li>Contact</li>
+          <a>Contact</a>
         </Link>
       </ul>
     </div>

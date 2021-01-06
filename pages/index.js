@@ -12,12 +12,10 @@ export default function Home() {
 
       <main>
         <Nav title="Welcome to my portfolio!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <div className="info">
+          Hi :) I'm Alex. Nice to meet you. I make things for the <a href="/work">[web]</a>. And here's a little <a href="/about">[about me].</a>
+        </div>
       </main>
-
-      <Footer />
     </div>
   )
 }
